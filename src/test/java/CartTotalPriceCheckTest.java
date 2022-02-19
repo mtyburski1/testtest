@@ -21,11 +21,11 @@ public class CartTotalPriceCheckTest extends BaseTest{
         formPage.sendFormClick();
         System.out.println(driver.findElement(By.id("info")).getText());
     }
-    public void shouldDisplaySports(){
-        MenuPage menuPage = new MenuPage(driver);
-        menuPage
-                .formClick()
-                .getSportSpecFromList(0);
-    }
+//     public void shouldDisplaySports(){
+//         MenuPage menuPage = new MenuPage(driver);
+//         menuPage
+//                 .formClick()
+//                 .getSportSpecFromList(0);
+//     }
 
 }
