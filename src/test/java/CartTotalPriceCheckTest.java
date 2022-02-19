@@ -26,8 +26,6 @@ public class CartTotalPriceCheckTest extends BaseTest{
         menuPage
                 .formClick()
                 .getSportSpecFromList(0);
-
-        System.out.println(menuPage.);
     }
 
 }
